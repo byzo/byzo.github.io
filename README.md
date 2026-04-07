@@ -1,6 +1,8 @@
 # Michael Breidenbrücker
 
-Austrian entrepreneur, artist and engineer. Co-founder of Last.fm. Find me on [Wikipedia](https://en.wikipedia.org/wiki/Michael_Breidenbruecker) or [X](https://x.com/byzo) — I post there.
+GP@[3-a.vc](https://3-a.vc) | Founder [raidical.one](https://raidical.one) | Creator [mur-mur.at](https://mur-mur.at) | also made Last.fm, hearapp, inception the app, rjdj
+
+[Wikipedia](https://en.wikipedia.org/wiki/Michael_Breidenbruecker) · [X](https://x.com/byzo) · [murmur blog](https://byzo.github.io/murmur-management)
 
 ---
 
