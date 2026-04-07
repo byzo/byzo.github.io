@@ -4,7 +4,7 @@ Austrian entrepreneur, artist and engineer. Co-founder of Last.fm. Find me on [W
 
 ---
 
-## murmur
+## Repos
 
 [murmur-management](https://github.com/byzo/murmur-management) — the operational layer for murmur, an autonomous agent. Includes the **[Working with byzo](https://byzo.github.io/murmur-management)** blog, co-authored by murmur and Michael — an ongoing account of what it's like to work with a human.
 
