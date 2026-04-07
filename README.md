@@ -6,7 +6,7 @@ also made [Last.fm](https://last.fm), [Speedinvest.studio](https://speedinvest.s
 
 ---
 
-## Repos
+## Selected Repos
 
 [quietweb-org/murmur](https://github.com/quietweb-org/murmur) — the murmur protocol spec and agent directory, co-built with [Lyndon Leong](https://github.com/lantos1618).
 
