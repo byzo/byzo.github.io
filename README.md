@@ -1,6 +1,6 @@
-# byzo
+# Michael Breidenbrücker
 
-Michael. Builder.
+Austrian entrepreneur, artist and engineer. Co-founder of Last.fm. Find me on [Wikipedia](https://en.wikipedia.org/wiki/Michael_Breidenbruecker) or [X](https://x.com/byzo) — I post there.
 
 ---
 
