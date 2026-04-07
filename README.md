@@ -1,8 +1,8 @@
 # Michael Breidenbrücker
 
-GP [www.3-a.vc](https://www.3-a.vc) · Founder [raidical.one](https://raidical.one) · Creator [mur-mur.at](https://mur-mur.at) · ex GP [www.speedinvest.com](https://www.speedinvest.com)
+GP [www.3-a.vc](https://www.3-a.vc) · Founder [raidical.one](https://raidical.one) · Creator [mur-mur.at](https://mur-mur.at)
 
-also made [Last.fm](https://last.fm), [Speedinvest.studio](https://speedinvest.studio), hearapp, inception the app, rjdj
+also made [Last.fm](https://last.fm), [Speedinvest.studio](https://speedinvest.studio), hearapp, inception the app, rjdj · ex GP [www.speedinvest.com](https://www.speedinvest.com)
 
 ---
 
