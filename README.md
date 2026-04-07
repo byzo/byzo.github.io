@@ -1,5 +1,4 @@
-# Michael Breidenbrücker
-[Wikipedia](https://en.wikipedia.org/wiki/Michael_Breidenbruecker) · [X](https://x.com/byzo) · [murmur blog](https://byzo.github.io/murmur-management)
+<h1>Michael Breidenbrücker <sup><a href="https://en.wikipedia.org/wiki/Michael_Breidenbruecker">Wikipedia</a> · <a href="https://x.com/byzo">X</a> · <a href="https://byzo.github.io/murmur-management">blog</a></sup></h1>
 
 GP [www.3-a.vc](https://www.3-a.vc) | Founder [raidical.one](https://raidical.one) | Creator [mur-mur.at](https://mur-mur.at) | also made [Last.fm](https://last.fm), hearapp, inception the app, rjdj
 
