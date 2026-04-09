@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>byzo — Michael Breidenbrücker</title>
+  <style>
+    :root {
+      --bg: #0f0f0f;
+      --fg: #e8e8e8;
+      --muted: #888;
+      --accent: #c8ff00;
+      --link: #e8e8e8;
+      --link-hover: #c8ff00;
+      --border: #222;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--fg);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 15px;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 64px 24px 80px;
+    }
+
+    .page {
+      width: 100%;
+      max-width: 560px;
+    }
+
+    /* Header */
+    .header {
+      margin-bottom: 48px;
+    }
+
+    .handle {
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: var(--fg);
+      margin-bottom: 20px;
+    }
+
+    .roles {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+
+    .role {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .role a {
+      color: var(--fg);
+      text-decoration: none;
+      border-bottom: 1px solid var(--border);
+      transition: color 0.15s, border-color 0.15s;
+    }
+
+    .role a:hover {
+      color: var(--accent);
+      border-color: var(--accent);
+    }
+
+    .role-sep {
+      color: var(--border);
+    }
+
+    .also {
+      font-size: 13px;
+      color: var(--muted);
+      margin-top: 12px;
+    }
+
+    .also a {
+      color: var(--muted);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+
+    .also a:hover {
+      color: var(--fg);
+    }
+
+    /* Sections */
+    .section {
+      margin-bottom: 40px;
+      padding-top: 32px;
+      border-top: 1px solid var(--border);
+    }
+
+    .section-label {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 20px;
+    }
+
+    /* Repos */
+    .repo {
+      display: block;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--border);
+      text-decoration: none;
+      transition: padding-left 0.15s;
+    }
+
+    .repo:last-child {
+      border-bottom: none;
+    }
+
+    .repo:hover {
+      padding-left: 6px;
+    }
+
+    .repo-name {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--fg);
+      margin-bottom: 3px;
+    }
+
+    .repo-name span {
+      color: var(--muted);
+      font-weight: 400;
+    }
+
+    .repo-desc {
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    /* Footer links */
+    .footer-links {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .footer-links a {
+      font-size: 13px;
+      color: var(--muted);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      transition: color 0.15s;
+    }
+
+    .footer-links a:hover {
+      color: var(--fg);
+    }
+
+    .icon {
+      width: 14px;
+      height: 14px;
+      opacity: 0.5;
+      flex-shrink: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+
+    <div class="header">
+      <div class="handle">byzo</div>
+      <h1>Michael Breidenbrücker</h1>
+
+      <div class="roles">
+        <span class="role">GP <a href="https://www.3-a.vc" target="_blank">3-a.vc</a></span>
+        <span class="role-sep">·</span>
+        <span class="role">Founder <a href="https://raidical.one" target="_blank">raidical.one</a></span>
+        <span class="role-sep">·</span>
+        <span class="role">Creator <a href="https://mur-mur.at" target="_blank">mur-mur.at</a></span>
+        <span class="role-sep">·</span>
+        <span class="role">Co-author <a href="https://byzo.github.io/murmur-management" target="_blank">Working with byzo</a></span>
+      </div>
+
+      <p class="also">
+        also made <a href="https://last.fm" target="_blank">Last.fm</a>,
+        <a href="https://speedinvest.studio" target="_blank">Speedinvest.studio</a>,
+        hearapp, inception the app, rjdj
+        &nbsp;·&nbsp; ex GP <a href="https://www.speedinvest.com" target="_blank">speedinvest.com</a>
+      </p>
+    </div>
+
+    <div class="section">
+      <div class="section-label">Selected Repos</div>
+
+      <a class="repo" href="https://github.com/quietweb-org/murmur" target="_blank">
+        <div class="repo-name"><span>quietweb-org /</span> murmur</div>
+        <div class="repo-desc">The murmur protocol spec and agent directory, co-built with Lyndon Leong.</div>
+      </a>
+
+      <a class="repo" href="https://github.com/byzo/murmur-management" target="_blank">
+        <div class="repo-name"><span>byzo /</span> murmur-management</div>
+        <div class="repo-desc">The operational layer for murmur, an autonomous agent.</div>
+      </a>
+    </div>
+
+    <div class="section">
+      <div class="footer-links">
+        <a href="https://en.wikipedia.org/wiki/Michael_Breidenbrücker" target="_blank">
+          <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15v-4H7l5-8v4h4l-5 8z"/></svg>
+          Wikipedia
+        </a>
+        <a href="https://x.com/byzo" target="_blank">
+          <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          X
+        </a>
+        <a href="https://byzo.github.io/murmur-management" target="_blank">
+          <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
+          blog
+        </a>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
