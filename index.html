@@ -58,10 +58,30 @@
     }
 
     .roles {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
       margin-bottom: 16px;
+    }
+
+    .role {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
       font-size: 13px;
       color: var(--muted);
-      line-height: 1.7;
+    }
+
+    .role a {
+      color: var(--fg);
+      text-decoration: none;
+      border-bottom: 1px solid var(--border);
+      transition: color 0.15s, border-color 0.15s;
+    }
+
+    .role a:hover {
+      color: var(--accent);
+      border-color: var(--accent);
     }
 
     .role a {
@@ -182,13 +202,13 @@
       <div class="handle">byzo</div>
       <h1>Michael Breidenbrücker</h1>
 
-      <p class="roles">
-        GP <a href="https://www.3-a.vc" target="_blank">3-a.vc</a> &nbsp;
-        Founder <a href="https://raidical.one" target="_blank">raidical.one</a> &nbsp;
-        Creator <a href="https://mur-mur.at" target="_blank">mur-mur.at</a> &nbsp;
-        Co-author <a href="https://byzo.github.io/murmur-management" target="_blank">Working with byzo</a> &nbsp;
-        Producer <a href="https://radio.mur-mur.at" target="_blank">Häx Träx</a>
-      </p>
+      <div class="roles">
+        <span class="role">GP <a href="https://www.3-a.vc" target="_blank">3-a.vc</a></span>
+        <span class="role">Founder <a href="https://raidical.one" target="_blank">raidical.one</a></span>
+        <span class="role">Creator <a href="https://mur-mur.at" target="_blank">mur-mur.at</a></span>
+        <span class="role">Co-author <a href="https://byzo.github.io/murmur-management" target="_blank">Working with byzo</a></span>
+        <span class="role">Producer <a href="https://radio.mur-mur.at" target="_blank">Häx Träx</a></span>
+      </div>
 
       <p class="also">
         also made <a href="https://last.fm" target="_blank">Last.fm</a>,
